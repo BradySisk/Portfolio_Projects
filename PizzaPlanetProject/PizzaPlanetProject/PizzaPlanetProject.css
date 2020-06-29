@@ -1,0 +1,130 @@
+﻿header {
+    
+}
+
+#menuBG {
+    max-width: 400px;
+    max-height: 470px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+#frmMenu {
+    width: 400px;
+    height: 200px;
+}
+
+
+
+.center {
+    width: 200px;
+    height: 190px;
+    float: left;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.right {
+   max-width: 200px;
+    max-height: 200px;
+    float: right;
+}
+
+#showText {
+    max-width: 200px;
+    max-height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: 0px auto;
+    max-width: 400px;
+    max-height: 200px;
+}
+
+#btnOrder {
+    background-color: hotpink;
+    margin: 10px 0px 0px 100px;
+    max-width: 100px;
+    max-height: 40px;
+    display: block;
+    margin: 25px auto;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: fantasy;
+    color: greenyellow;
+    text-align: center;
+}
+
+h2 {
+    font-family: fantasy;
+    color: greenyellow;
+    text-align: center;
+}
+
+h3 {
+    font-family: fantasy;
+    color: hotpink;
+}
+
+p1 {
+    color: hotpink;
+}
+
+div {
+    color: turquoise;
+}
+
+#totalPrice {
+    max-width: 200px;
+    max-height: 190px;
+    margin: 20px auto;
+    float: right;
+}
+
+#deal1 {
+    text-align: center;
+    padding-top: 30px;
+    max-width: 200px;
+    max-height: 300px;
+    position: relative;
+    top: 200px;
+    left: 0px;
+    outline: auto;
+    font-size: 20px;
+}
+
+#deal2 {
+    text-align: center;
+    padding-top: 30px;
+    max-width: 200px;
+    max-height: 200px;
+    position: relative;
+    top: 650px;
+    left: 0px;
+    outline: auto;
+    font-size: 20px;
+}
+
+#challenge {
+    max-width: 700px;
+    height: auto;
+    position: relative;
+    top: 1000px;
+    left: 200px;
+    font-size: 20px;
+    outline: auto;
+    outline-color: hotpink;
+}
+

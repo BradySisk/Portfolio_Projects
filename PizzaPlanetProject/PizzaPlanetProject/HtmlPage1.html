@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Pizza Planet</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, intial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="PizzaPlanetProject.css" />
+  <script src="PizzaPlanetProject.js"></script>
+</head>
+<body>
+  <!--HEADER-->
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTpQbvpL1xHaQ34UFM-3H_yauvjaSUNrjhw-oTTH2j1YJ0yHeoX&usqp=CAU " />
+    <h1 style="text-align:center;">Pizza Planet</h1>
+  </header>
+  <!--END HEADER-->
+  <div id="menuBG">
+
+
+    <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
+
+    <form id="frmMenu">
+      <div class="group">
+        <div class="menu left">
+          <h3>Size:</h3>
+          <input class="size" type="radio" name="size"
+                 value="Mecury (Personal)"> Mecury (Personal)<br>
+          <input class="size" type="radio" name="size"
+                 value="Neptune (Medium)"> Neptune (Medium)<br>
+          <input class="size" type="radio" name="size"
+                 value="Saturn (Large)" checked> Saturn (Large)<br>
+          <input class="size" type="radio" name="size"
+                 value="Jupiter (Extra Large)"> Jupiter (Extra Large)<br>
+
+        </div>
+
+        <div class="menu center">
+          <h3>Vegatables:</h3>
+          <input class="toppings" type="checkbox" name="Topping" value="Mushrooms">
+          Mushrooms
+          <br>
+          <input class="toppings" type="checkbox" name="Topping" value="Spinach">
+          Spinach
+          <br>
+          <input class="toppings" type="checkbox" name="Topping" value="Olives">
+          Olives
+          <br>
+          <input class="toppings" type="checkbox" name="Topping" value="Green Peppers">
+          Green Peppers
+          <br>
+        </div>
+
+
+        <div class="menu right">
+          <h3>Meats:</h3>
+          <input class="meats" type="checkbox" name="Meat"
+                 value="Pepperoni">Pepperoni<br>
+          <input class="meats" type="checkbox" name="Meat"
+                 value="Sausage">Sausage<br>
+          <input class="meats" type="checkbox" name="Meat"
+                 value="Canadian Bacon">Canadian Bacon<br>
+          <input class="meats" type="checkbox" name="Meat"
+                 value="Ground Beef">Ground Beef<br>
+          <input class="meats" type="checkbox" name="Meat"
+                 value="Anchovy">Anchovy<br>
+          <input class="meats" type="checkbox" name="Meat"
+                 value="Chicken">Chicken<br>
+        </div>
+      </div>
+      <div id="cart">
+        <div id="showtext"></div>
+        <div id="totalPrice"></div>
+      </div>
+    </form>
+  </div>
+  <h3>DEALS ARE FOR IN STORE PUCHASES ONLY</h3>
+  <div id="deal1">
+    <h2>DEAL OF THE DAY!!!</h2>
+    <p>Pizza Planet is a fun place for everyone, where you can find fun facts about our solar solar system all around our resuranut and pizza thats out of this world!! Come see for yourself and get your first pizza half off if you come in today. we are located on 92 Galaxy Way </p>
+  </div>
+  <div id="deal2">
+    <h2>Other Deals</h2>
+    <p>Get your second pizza <p1>FREE!</p1> when you buy a large one topping pizza.</p>
+  </div>
+
+  <div id="challenge">
+    <h2>Black Hole Challenge!</h2>
+    <p>
+      You and one other brave voyager must take on the largest pizza we have its named after the largest planet known to man,it is located in the Hercules constalation,you could fit over 2,000 Earths inside of it and is almost twice the size of Jupiter which is the largest planet in our solar system!Its name is Tres-4b.If you and your commrade are able to conquer this monster pizza you will be crowned MASTERS OF THE UNIVERSE, be inducted into the Black Hole of Fame and will walk away with $500!!!.....if you can walk that is.
+  </div>
+
+</body>
+</html>
+
+
